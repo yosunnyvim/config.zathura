@@ -1,0 +1,74 @@
+# ── General ──────────────────────────────────────────────
+set font "monospace normal 11"
+set page-padding 10
+set scroll-step 50
+set zoom-step 10
+set zoom-min 10
+set zoom-max 1000
+set statusbar-h-padding 10
+set statusbar-v-padding 5
+set pages-per-row 1
+set adjust-open "best-fit"
+set incremental-search true
+
+# ── Dark mode  ──────────────────────────────────
+set recolor true
+set recolor-lightcolor "#1e1e2e"
+set recolor-darkcolor  "#cdd6f4"
+set recolor-keephue    false
+
+# ── Clipboard ────────────────────────────────────────────
+set selection-clipboard clipboard
+
+# ── UI Colors ────────────────────────────────────────────
+set default-bg         "#1e1e2e"
+set default-fg         "#cdd6f4"
+set statusbar-bg       "#181825"
+set statusbar-fg       "#cdd6f4"
+set inputbar-bg        "#181825"
+set inputbar-fg        "#cdd6f4"
+set notification-bg    "#181825"
+set notification-fg    "#cdd6f4"
+set highlight-color    "#f5a97f"
+set highlight-active-color "#a6e3a1"
+
+# ── Vim Motions: Scroll ───────────────────────────────────
+map j scroll down
+map k scroll up
+map h scroll left
+map l scroll right
+map d scroll half-down
+map u scroll half-up
+map <C-d> scroll half-down
+map <C-u> scroll half-up
+map <C-f> scroll full-down
+map <C-b> scroll full-up
+
+# ── Vim Motions: Navigation ───────────────────────────────
+map J navigate next
+map K navigate previous
+map gg goto top
+map G goto bottom
+map <C-o> jumplist backward
+map <C-i> jumplist forward
+
+# ── Vim Motions: Zoom ─────────────────────────────────────
+map + zoom in
+map - zoom out
+map zi zoom in
+map zo zoom out
+map zz adjust_window best-fit
+map zw adjust_window width
+
+# ── Vim Motions: Search ───────────────────────────────────
+map / search forward
+map ? search backward
+map n search forward
+map N search backward
+
+# ── Other ─────────────────────────────────────────────────
+map r reload
+map R rotate rotate-cw
+map i recolor
+map p print
+map q quit
