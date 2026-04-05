@@ -1,7 +1,3 @@
-
-Readme · MD
-Copy
-
 # Zathura Config
  
 Minimal Zathura setup with dark mode and Vim motions.

@@ -12,25 +12,24 @@ set adjust-open "best-fit"
 set incremental-search true
 
 # ── Dark mode  ──────────────────────────────────
-set recolor true
-set recolor-lightcolor "#1e1e2e"
-set recolor-darkcolor  "#cdd6f4"
+set recolor false 
+set recolor-lightcolor "#1a1a1a"
+set recolor-darkcolor  "#e0e0e0"
 set recolor-keephue    false
 
 # ── Clipboard ────────────────────────────────────────────
-set selection-clipboard clipboard
-
+set selection-clipboard primary
 # ── UI Colors ────────────────────────────────────────────
-set default-bg         "#1e1e2e"
-set default-fg         "#cdd6f4"
-set statusbar-bg       "#181825"
-set statusbar-fg       "#cdd6f4"
-set inputbar-bg        "#181825"
-set inputbar-fg        "#cdd6f4"
-set notification-bg    "#181825"
-set notification-fg    "#cdd6f4"
-set highlight-color    "#f5a97f"
-set highlight-active-color "#a6e3a1"
+set default-bg         "#1e1e1e"
+set default-fg         "#b8b0a0"
+set statusbar-bg       "#181818"
+set statusbar-fg       "#a0998a"
+set inputbar-bg        "#181818"
+set inputbar-fg        "#a0998a"
+set notification-bg    "#181818"
+set notification-fg    "#a0998a"
+set highlight-color    "#7a5c3a"
+set highlight-active-color "#5a7a5c"
 
 # ── Vim Motions: Scroll ───────────────────────────────────
 map j scroll down
